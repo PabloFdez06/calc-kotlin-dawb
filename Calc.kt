@@ -2,6 +2,9 @@ fun main(args: Array) {
     val (operation, num1, num2) = parseArguments(args)
     val result = when (operation) {
         "multiplica" -> multiplica(num1, num2)
+        "divide" -> divide(num1, num2)
+        "suma" -> suma(num1, num2)
+        "resta" -> resta(num1, num2)
         else -> throw IllegalArgumentException("Operación no soportada")
     }
     showResult(operation, result)
