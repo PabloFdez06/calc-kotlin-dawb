@@ -32,6 +32,10 @@ fun suma(num1: Int, num2: Int): Int {
     return num1 + num2
 }
 
+fun resta(num1: Int, num2: Int): Int {
+    return num1 - num2
+}
+
 fun showResult(operation: String, result: Int) {
     println("El resultado de la operación \"$operation\" es: $result")
 }
